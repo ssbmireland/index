@@ -1,0 +1,7 @@
+body { font-family: monospace; }
+
+p.main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 15em
+}
