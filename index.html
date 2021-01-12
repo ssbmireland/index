@@ -1,17 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
-<link rel=stylesheet type="text/css" href="style.css">
 <title>SSBM Ireland</title>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: smashireland.jpg);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
 <body>
-<p class="main"><br>
-	<img src="smashireland.jpg"><br>
-	<a href="https://twitter.com/IrelandSSB">Twitter</a><br>
-	<a href="https://discord.gg/5vZzZpq">Irish Smash Discord</a><br>
-	<a href="https://www.facebook.com/groups/SmashIreland">Irish Smash Facebook</a><br>
-	<br><br>
-</p>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>logo</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">Links</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p class="w3-xlarge">SSBM Ireland</p>
+    <p class="w3-large">#1 T.O.s Worldwide</p>
+    <p>created by <a href="https://www.twitter.com/vlookupman" target="_blank">Pierce</a></p>
+  </div>
+</div>
+
+<!-- Links Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Irish Groups</h1>
+    </div>
+    <div class="w3-container">
+      <h5><a href="https://twitter.com/IrelandSSB">Smash Ireland Twitter</a></h5>
+      <h5><a href="https://discord.gg/5vZzZpq">Irish Smash Discord</a></h5>
+      <h5><a href="https://www.facebook.com/groups/SmashIreland">Irish Smash Facebook</a></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>European Groups</h1>
+    </div>
+    <div class="w3-container">
+      <h5><a href="https://twitter.com/SmashEurope">Smash Europe Twitter</a></h5>
+      <h5><a href="https://discord.gg/PBZNzg6eyF">EU SSBM Discord</a></h5>
+      <h5><a href="https://smashmelee.eu">EU SSBM Online Events Calendar</a></h5>
+      <h5><a href="https://www.reddit.com/r/smasheurope">EU SSBM Subreddit</a></h5>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>
