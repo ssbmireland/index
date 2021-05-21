@@ -26,7 +26,22 @@ body, html {height: 100%}
   </div>
   <div class="w3-display-bottomleft w3-container">
     <p class="w3-xxlarge w3-text-amber">#1 T.O.s Worldwide</p>
-	<iframe src="https://player.twitch.tv/?channel=loltyler1&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+	<script src= "https://player.twitch.tv/js/embed/v1.js"></script>
+<div id="<player div ID>"></div>
+<script type="text/javascript">
+  var options = {
+    width: <width>,
+    height: <height>,
+    channel: "<channel ID>",
+    video: "<video ID>",
+    collection: "<collection ID>",
+    // only needed if your site is also embedded on embed.example.com and othersite.example.com
+    parent: ["embed.example.com", "othersite.example.com"]
+  };
+  var player = new Twitch.Player("<player div ID>", options);
+  player.setVolume(0.5);
+</script>
+
     <p class="w3-xxlarge w3-text-light-green">created by <a href="https://www.twitter.com/vlookupman" target="_blank">Pierce</a></p>
   </div>
 </div>
