@@ -1,20 +1,31 @@
-JOHN#390
-2
-MARF#776
-1665.5
-ALDO#285
-1498
-VERD#230
-1823.7
-FROG#338
-1921.1
-MINT#0
-1976.1
-MIHL#380
-1523.9
-ULLY#375
-1501.4
-ROO#757
-NaN
-RAZZ#632
-1115.2
+<tr class="w3-light-green">
+        <td>JOHN#390</td>
+        <td>1138.3</td>
+    </tr><tr class="w3-light-green">
+        <td>MARF#776</td>
+        <td>1665.5</td>
+    </tr><tr class="w3-light-green">
+        <td>VERD#230</td>
+        <td>1823.7</td>
+    </tr><tr class="w3-light-green">
+        <td>ALDO#285</td>
+        <td>1498</td>
+    </tr><tr class="w3-light-green">
+        <td>FROG#338</td>
+        <td>1921.1</td>
+    </tr><tr class="w3-light-green">
+        <td>MINT#0</td>
+        <td>1976.1</td>
+    </tr><tr class="w3-light-green">
+        <td>MIHL#380</td>
+        <td>1523.9</td>
+    </tr><tr class="w3-light-green">
+        <td>ULLY#375</td>
+        <td>1501.4</td>
+    </tr><tr class="w3-light-green">
+        <td>ROO#757</td>
+        <td>NaN</td>
+    </tr><tr class="w3-light-green">
+        <td>RAZZ#632</td>
+        <td>1115.2</td>
+    </tr>
