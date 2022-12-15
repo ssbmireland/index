@@ -15,6 +15,9 @@ let tags = [
   "aldo-285",
   "frog-338",
   "mint-0",
+  "mihl-380",
+  "ully-375",
+  "roo-757",
   "razz-632"
 ]
 const requestQueue = await RequestQueue.open();
