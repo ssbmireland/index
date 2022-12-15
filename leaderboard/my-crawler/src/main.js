@@ -9,16 +9,17 @@ import * as puppeteer from 'puppeteer';
 //const {puppeteer} = require('puppeteer')
 
 let tags = [
+  "aldo-285",
+  "ddud-378",
+  "frog-338",
   "john-390",
   "marf-776",
-  "verd-230",
-  "aldo-285",
-  "frog-338",
-  "mint-0",
   "mihl-380",
+  "mint-0",
+  "razz-632",
+  "sharp-0",
   "ully-375",
-  "roo-757",
-  "razz-632"
+  "verd-230"
 ]
 const requestQueue = await RequestQueue.open();
 for (const player of tags) {
