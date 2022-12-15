@@ -3,7 +3,7 @@ import { PuppeteerCrawler, ProxyConfiguration } from 'crawlee';
 import { router } from './routes.js';
 
 const {sleep, RequestQueue, Dataset, createRequestDebugInfo} = import('crawlee')
-const {puppeteer} = require('puppeteer')
+const {puppeteer} = import('puppeteer')
 
 tags = [
     "john-390",
