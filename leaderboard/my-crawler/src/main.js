@@ -1,10 +1,12 @@
 // For more information, see https://crawlee.dev/
-import { PuppeteerCrawler, ProxyConfiguration } from 'crawlee';
+import { sleep, RequestQueue, Dataset, PuppeteerCrawler, createRequestDebugInfo, ProxyConfiguration } from 'crawlee';
 import { router } from './routes.js';
+import * as fs from 'fs';
+import * as puppeteer from 'puppeteer';
 
-const fs = require('fs')
-const {sleep, RequestQueue, Dataset, createRequestDebugInfo} = require('crawlee')
-const {puppeteer} = require('puppeteer')
+//const fs = require('fs')
+//const {sleep, RequestQueue, Dataset, PuppeteerCrawler, createRequestDebugInfo} = require('crawlee')
+//const {puppeteer} = require('puppeteer')
 
 tags = [
     "john-390",
