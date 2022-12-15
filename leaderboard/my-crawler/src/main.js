@@ -2,8 +2,9 @@
 import { PuppeteerCrawler, ProxyConfiguration } from 'crawlee';
 import { router } from './routes.js';
 
-const {sleep, RequestQueue, Dataset, createRequestDebugInfo} = import('crawlee')
-const {puppeteer} = import('puppeteer')
+const fs = require('fs')
+const {sleep, RequestQueue, Dataset, createRequestDebugInfo} = require('crawlee')
+const {puppeteer} = require('puppeteer')
 
 tags = [
     "john-390",
@@ -40,6 +41,15 @@ tags = [
               let containerText = (await page.$eval('.container', e=>e.innerText))
               let infoSplit = containerText.split(`\n`)
               allinfo.push(`Slippi Tag: ${infoSplit[2]}\nELO: ${parseFloat((infoSplit[6].split(" "))[0])}\n`)
+			  fs.writeFile("table.txt", allinfo.join(`\n`), (err) => {
+                if (err)
+                  console.log(err);
+                else {
+                  console.log("File written successfully\n");
+                  console.log("The written has the following contents:");
+                  console.log(fs.readFileSync("table.txt", "utf8"));
+                }
+              });
               await Dataset.pushData({"info": infoSplit})
           },
           failedRequestHandler({ request, log }) {
