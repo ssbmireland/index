@@ -14,7 +14,7 @@ tags = [
     "verd-230",
     "aldo-285",
     "frog-338",
-	"mint-0",
+    "mint-0",
     "razz-632"
 ]
 
