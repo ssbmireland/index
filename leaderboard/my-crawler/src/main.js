@@ -16,7 +16,7 @@ let tags = [
   "frog-338",
   "mint-0",
   "razz-632"
-
+]
 const requestQueue = await RequestQueue.open();
 for (const player of tags) {
   await requestQueue.addRequest({ url: `https://slippi.gg/user/${player}` });
