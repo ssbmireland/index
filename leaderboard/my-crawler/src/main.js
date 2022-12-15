@@ -43,7 +43,7 @@ const crawler = new PuppeteerCrawler({
     await sleep(2000)
     let containerText = (await page.$eval('.container', e => e.innerText))
     let infoSplit = containerText.split(`\n`)
-    allinfo.push(`Slippi Tag: ${infoSplit[2]}\nELO: ${parseFloat((infoSplit[6].split(" "))[0])}\n`)
+    allinfo.push(`${infoSplit[2]}\n${parseFloat((infoSplit[6].split(" "))[0])}\n`)
     fs.writeFile("table.txt", allinfo.join(`\n`), (err) => {
       if (err)
         console.log(err);
