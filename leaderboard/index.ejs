@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<title>SSBM Ireland</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="style/app.css">
+
+<body>
+
+  <div class="bgimg w3-display-container w3-text-lime">
+    <div class="w3-display-topmiddle w3-large">
+      <h1>Irish Melee Slippi Leaderboard</h1>
+    </div>
+    <table class="sortable w3-display-middle w3-table-all w3-centered w3-text-white" id="myTable2">
+      <thead>
+        <tr class="w3-red">
+          <th onclick="sortTable(0)">Slippi Tag</th>
+          <th onclick="sortTable(1)">ELO Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% for(var i = 0; i < players.length; i++) {%>
+          <li class="player">
+            <% let split = players[i].trim().split[\s];
+            <span><%= split[0] %></span>:
+            <span><%= split[1] %></span>
+          </li>
+        <% } %>
+      </tbody>
+    </table>
+    <div class="w3-display-topleft w3-container w3-xlarge">
+      <p><button onclick="document.getElementById('menu').style.display='block'"
+          class="w3-button w3-white">Links</button></p>
+    </div>
+    <div class="w3-display-bottomleft w3-container">
+      <p class="w3-medium w3-text-amber">#1 T.O.s Worldwide</p>
+      <p class="w3-medium w3-text-light-green">created by <a href="https://www.twitter.com/vlookupman"
+          target="_blank">Pierce, John Barrett, and Evan</a></p>
+    </div>
+  </div>
+
+  <!-- Links Modal -->
+  <div id="menu" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <span onclick="document.getElementById('menu').style.display='none'"
+          class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Irish Pages</h1>
+      </div>
+      <div class="w3-container">
+        <h5><a href="https://twitter.com/IrelandSSB">Smash Ireland Twitter</a></h5>
+        <h5><a href="https://discord.com/k5vPjgsdEW">Melee Ireland Discord</a></h5>
+        <h5><a href="https://discord.gg/5vZzZpq">SSBU Ireland Discord</a></h5>
+        <h5><a href="https://www.facebook.com/groups/SmashIreland">Smash Ireland Facebook</a></h5>
+        <h5><a href="https://www.etsy.com/ie/shop/NoJohnsDesigns">AISB_ROO on Etsy</a></h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>European Pages</h1>
+      </div>
+      <div class="w3-container">
+        <h5><a href="https://twitter.com/SmashEurope">Smash Europe Twitter</a></h5>
+        <h5><a href="https://discord.gg/PBZNzg6eyF">EU SSBM Discord</a></h5>
+        <h5><a href="https://smashmelee.eu">EU SSBM Online Events Calendar</a></h5>
+        <h5><a href="https://www.reddit.com/r/smasheurope">EU SSBM Subreddit</a></h5>
+        <h5><a href="https://www.facebook.com/groups/215127018640506/">EU SSBM Facebook</a></h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Getting Started with Melee</h1>
+      </div>
+      <div class="w3-container">
+        <h5><a href="https://slippi.gg">Slippi, the way to play SSBM Online</a></h5>
+        <h5><a href="https://blippi.gg">Blippi, a list of other resources for SSBM</a></h5>
+      </div>
+    </div>
+  </div>
+
+  <script src="/src/main.js"></script>
+</body>
+
+</html>
+<
