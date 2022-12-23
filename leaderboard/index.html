@@ -19,52 +19,23 @@
           <th onclick="sortTable(1)">Rating</th>
         </tr>
       </thead>
-      <tbody>
-        <tr class="w3-light-green">
-          <td>DDUD#378</td>
-          <td>1158.3</td>
-        </tr>
-        <tr class="w3-light-green">
-          <td>ALDO#285</td>
-          <td>1583.8</td>
-        </tr>
-        <tr class="w3-light-green">
-          <td>FROG#338</td>
-          <td>1819.9</td>
-        </tr>
-        <tr class="w3-light-green">
-          <td>JOHN#390</td>
-          <td>1441.5</td>
-        </tr>
-        <tr class="w3-light-green">
-          <td>MARF#776</td>
-          <td>1665.5</td>
-        </tr>
-        <tr class="w3-light-green">
-          <td>MIHL#380</td>
-          <td>1539.9</td>
-        </tr>
-        <tr class="w3-light-green">
-          <td>MINT#0</td>
-          <td>2196.2</td>
-        </tr>
-        <tr class="w3-light-green">
-          <td>RAZZ#632</td>
-          <td>1419.8</td>
-        </tr>
-        <tr class="w3-light-green">
-          <td>SHARP#0</td>
-          <td>2203.7</td>
-        </tr>
-        <tr class="w3-light-green">
-          <td>ULLY#375</td>
-          <td>1501.4</td>
-        </tr>
-        <tr class="w3-light-green">
-          <td>VERD#230</td>
-          <td>1852.4</td>
-        </tr>
-      </tbody>
+      <tbody id="html-container"></tbody>
+      <script>
+
+        // This script populates the table of players on the page.
+        // To update this list, run the crawler and push the updated table.txt
+        // to master
+
+        fetch('src/table.txt')
+          .then(response => response.text())
+          .then(text => {
+            const htmlBlocks = text.split('</tr>');
+            htmlBlocks.forEach(htmlBlock => {
+              document.getElementById('html-container').innerHTML += htmlBlock;
+            });
+          });
+      </script>
+    </tbody>
     </table>
     <div class="w3-display-topleft w3-container w3-xlarge">
       <p><button onclick="document.getElementById('menu').style.display='block'"
@@ -113,6 +84,7 @@
   </div>
 
   <script src="src/functions.js"></script>
+
 
 </body>
 

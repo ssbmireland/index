@@ -21,6 +21,7 @@ let tags = [
   "ully-375",
   "verd-230"
 ]
+
 const requestQueue = await RequestQueue.open();
 for (const player of tags) {
   await requestQueue.addRequest({ url: `https://slippi.gg/user/${player}` });
@@ -48,13 +49,13 @@ const crawler = new PuppeteerCrawler({
         <td>${infoSplit[2]}</td>
         <td>${parseFloat((infoSplit[6].split(" "))[0])}</td>
     </tr>`)
-    fs.writeFile("table.txt", allinfo.join(``), (err) => {
+    fs.writeFile("src/table.txt", allinfo.join(``), (err) => {
       if (err)
         console.log(err);
       else {
         console.log("File written successfully\n");
         console.log("The written has the following contents:");
-        console.log(fs.readFileSync("table.txt", "utf8"));
+        console.log(fs.readFileSync("src/table.txt", "utf8"));
       }
     });
     await Dataset.pushData({ "info": infoSplit })
