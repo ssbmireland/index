@@ -1,34 +1,34 @@
 <tr class="w3-light-green">
-        <td>DDUD#378</td>
-        <td>1158.3</td>
-    </tr><tr class="w3-light-green">
-        <td>ALDO#285</td>
+        <td><a href="https://slippi.gg/user/aldo-285" target="_blank">ALDO#285</a></td>
         <td>1728.7</td>
     </tr><tr class="w3-light-green">
-        <td>FROG#338</td>
-        <td>1999.5</td>
+        <td><a href="https://slippi.gg/user/ddud-378" target="_blank">DDUD#378</a></td>
+        <td>1158.3</td>
     </tr><tr class="w3-light-green">
-        <td>JOHN#390</td>
+        <td><a href="https://slippi.gg/user/frog-338" target="_blank">FROG#338</a></td>
+        <td>2049.9</td>
+    </tr><tr class="w3-light-green">
+        <td><a href="https://slippi.gg/user/john-390" target="_blank">JOHN#390</a></td>
         <td>1426.5</td>
     </tr><tr class="w3-light-green">
-        <td>MARF#776</td>
+        <td><a href="https://slippi.gg/user/marf-776" target="_blank">MARF#776</a></td>
         <td>1679.5</td>
     </tr><tr class="w3-light-green">
-        <td>MIHL#380</td>
+        <td><a href="https://slippi.gg/user/mihl-380" target="_blank">MIHL#380</a></td>
         <td>1603.7</td>
     </tr><tr class="w3-light-green">
-        <td>MINT#0</td>
+        <td><a href="https://slippi.gg/user/mint-0" target="_blank">MINT#0</a></td>
         <td>2196.2</td>
     </tr><tr class="w3-light-green">
-        <td>RAZZ#632</td>
-        <td>1403.5</td>
+        <td><a href="https://slippi.gg/user/razz-632" target="_blank">RAZZ#632</a></td>
+        <td>1425</td>
     </tr><tr class="w3-light-green">
-        <td>SHARP#0</td>
+        <td><a href="https://slippi.gg/user/sharp-0" target="_blank">SHARP#0</a></td>
         <td>2276.7</td>
     </tr><tr class="w3-light-green">
-        <td>ULLY#375</td>
+        <td><a href="https://slippi.gg/user/ully-375" target="_blank">ULLY#375</a></td>
         <td>1501.4</td>
     </tr><tr class="w3-light-green">
-        <td>VERD#230</td>
-        <td>1879</td>
+        <td><a href="https://slippi.gg/user/verd-230" target="_blank">VERD#230</a></td>
+        <td>1943.1</td>
     </tr>
