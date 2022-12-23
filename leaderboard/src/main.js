@@ -47,7 +47,7 @@ const crawler = new PuppeteerCrawler({
     let containerText = (await page.$eval('.container', e => e.innerText))
     let infoSplit = containerText.split(`\n`)
     allinfo.push(`<tr class="w3-light-green">
-        <td><a href="https://slippi.gg/user/${tags[counter]}">${infoSplit[2]}</a></td>
+        <td><a href="https://slippi.gg/user/${tags[counter]}" target="_blank">${infoSplit[2]}</a></td>
         <td>${parseFloat((infoSplit[6].split(" "))[0])}</td>
     </tr>`)
     counter++;
