@@ -28,6 +28,7 @@ for (const player of tags) {
 }
 
 const allinfo = []
+let counter = 0;
 const crawler = new PuppeteerCrawler({
   launchContext: {
     launchOptions: {
@@ -46,9 +47,10 @@ const crawler = new PuppeteerCrawler({
     let containerText = (await page.$eval('.container', e => e.innerText))
     let infoSplit = containerText.split(`\n`)
     allinfo.push(`<tr class="w3-light-green">
-        <td>${infoSplit[2]}</td>
+        <td><a href="https://slippi.gg/user/${tags[counter]}">${infoSplit[2]}</a></td>
         <td>${parseFloat((infoSplit[6].split(" "))[0])}</td>
     </tr>`)
+    counter++;
     fs.writeFile("src/table.txt", allinfo.join(``), (err) => {
       if (err)
         console.log(err);
