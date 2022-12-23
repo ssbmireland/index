@@ -17,7 +17,7 @@ html {
 }
 
 .bgimg {
-	background-image: url('./smashireland.jpg');
+	background-image: url('smashireland.jpg');
 	min-height: 100%;
 	background-position: center;
 	background-size: cover;
