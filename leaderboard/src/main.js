@@ -11,7 +11,9 @@ import * as puppeteer from 'puppeteer';
 let tags = [
   "aldo-285",
   "ddud-378",
+  "flan-208",
   "frog-338",
+  "jack-592",
   "john-390",
   "marf-776",
   "mihl-380",
