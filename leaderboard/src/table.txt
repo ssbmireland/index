@@ -1,12 +1,15 @@
 <tr class="w3-light-green">
+        <td><a href="https://slippi.gg/user/pasc-956" target="_blank">PASC#956</a></td>
+        <td>1014.5</td>
+    </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/aldo-285" target="_blank">ALDO#285</a></td>
         <td>1732.8</td>
     </tr><tr class="w3-light-green">
-        <td><a href="https://slippi.gg/user/ddud-378" target="_blank">DDUD#378</a></td>
-        <td>1055.7</td>
+        <td><a href="https://slippi.gg/user/ddud-378" target="_blank">FLAN#208</a></td>
+        <td>1555.8</td>
     </tr><tr class="w3-light-green">
-        <td><a href="https://slippi.gg/user/flan-208" target="_blank">FLAN#208</a></td>
-        <td>1537.5</td>
+        <td><a href="https://slippi.gg/user/flan-208" target="_blank">DDUD#378</a></td>
+        <td>1055.7</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/frog-338" target="_blank">FROG#338</a></td>
         <td>2198.3</td>
