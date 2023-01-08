@@ -9,6 +9,7 @@ import * as puppeteer from 'puppeteer';
 //const {puppeteer} = require('puppeteer')
 
 let tags = [
+  "luan-281",
   "pasc-956",
   "aldo-285",
   "ddud-378",
