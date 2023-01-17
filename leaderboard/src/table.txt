@@ -20,14 +20,14 @@
         <td><a href="https://slippi.gg/user/jack-592" target="_blank">JACK#592</a></td>
         <td>1558</td>
     </tr><tr class="w3-light-green">
-        <td><a href="https://slippi.gg/user/john-390" target="_blank">JOHN#390</a></td>
-        <td>1372.6</td>
-    </tr><tr class="w3-light-green">
-        <td><a href="https://slippi.gg/user/marf-776" target="_blank">MARF#776</a></td>
+        <td><a href="https://slippi.gg/user/john-390" target="_blank">MARF#776</a></td>
         <td>1832.1</td>
     </tr><tr class="w3-light-green">
-        <td><a href="https://slippi.gg/user/mihl-380" target="_blank">MIHL#380</a></td>
-        <td>1782.5</td>
+        <td><a href="https://slippi.gg/user/marf-776" target="_blank">MIHL#380</a></td>
+        <td>1770.7</td>
+    </tr><tr class="w3-light-green">
+        <td><a href="https://slippi.gg/user/mihl-380" target="_blank">JOHN#390</a></td>
+        <td>1372.6</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/mint-0" target="_blank">MINT#0</a></td>
         <td>2470</td>
