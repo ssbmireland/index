@@ -1,9 +1,9 @@
 <tr class="w3-light-green">
-        <td><a href="https://slippi.gg/user/luan-281" target="_blank">LUAN#281</a></td>
-        <td>2310.5</td>
-    </tr><tr class="w3-light-green">
-        <td><a href="https://slippi.gg/user/pasc-956" target="_blank">PASC#956</a></td>
+        <td><a href="https://slippi.gg/user/luan-281" target="_blank">PASC#956</a></td>
         <td>1005.3</td>
+    </tr><tr class="w3-light-green">
+        <td><a href="https://slippi.gg/user/pasc-956" target="_blank">LUAN#281</a></td>
+        <td>2310.5</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/aldo-285" target="_blank">ALDO#285</a></td>
         <td>1732.8</td>
