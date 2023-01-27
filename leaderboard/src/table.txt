@@ -36,7 +36,7 @@
         <td>1394.9</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/sharp-0" target="_blank">SHARP#0</a></td>
-        <td>2363.1</td>
+        <td>2368</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/ully-375" target="_blank">ULLY#375</a></td>
         <td>1506.8</td>
