@@ -1,9 +1,9 @@
 <tr class="w3-light-green">
-        <td><a href="https://slippi.gg/user/luan-281" target="_blank">PASC#956</a></td>
-        <td>1005.3</td>
-    </tr><tr class="w3-light-green">
-        <td><a href="https://slippi.gg/user/pasc-956" target="_blank">LUAN#281</a></td>
+        <td><a href="https://slippi.gg/user/luan-281" target="_blank">LUAN#281</a></td>
         <td>2310.5</td>
+    </tr><tr class="w3-light-green">
+        <td><a href="https://slippi.gg/user/pasc-956" target="_blank">PASC#956</a></td>
+        <td>1005.3</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/aldo-285" target="_blank">ALDO#285</a></td>
         <td>1732.8</td>
@@ -21,7 +21,7 @@
         <td>1558</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/john-390" target="_blank">JOHN#390</a></td>
-        <td>1349.6</td>
+        <td>1346.9</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/marf-776" target="_blank">MARF#776</a></td>
         <td>1863.7</td>
@@ -36,10 +36,10 @@
         <td>1394.9</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/sharp-0" target="_blank">SHARP#0</a></td>
-        <td>2368</td>
+        <td>2372.1</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/ully-375" target="_blank">ULLY#375</a></td>
-        <td>1506.8</td>
+        <td>1482.7</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/verd-230" target="_blank">VERD#230</a></td>
         <td>2081.6</td>
