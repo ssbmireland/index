@@ -27,7 +27,7 @@
         <td>1864</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/mihl-380" target="_blank">MIHL#380</a></td>
-        <td>1746.7</td>
+        <td>1752.2</td>
     </tr><tr class="w3-light-green">
         <td><a href="https://slippi.gg/user/mint-0" target="_blank">MINT#0</a></td>
         <td>2543.6</td>
